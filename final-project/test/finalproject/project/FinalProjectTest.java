@@ -26,6 +26,7 @@ public class FinalProjectTest {
     @Before
     public void setUp()
     {
+        FinalProject.ruleSet = "Conway";
         FinalProject.xCells = 50; //Declare main class's fields
         FinalProject.yCells = 50;
         FinalProject.cellSize = 10;
